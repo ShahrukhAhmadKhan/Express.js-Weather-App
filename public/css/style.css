@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: blanchedalmond;
+}
+/* ================background images======================= */
+.bg-img{
+    width: 100%;
+    height: 300px;
+    background-image: url('/images/clinton-naik-NcTQ602gKLI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.page-bg{
+    width: 100%;
+    height: 300px;
+    background-image: url('/images/noaa-0ETSZYPjvDo-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+/* =====================Header CSS===================== */
+.header{
+    width: 100;
+    height: 40px;
+    /* background-color: blueviolet; */
+}
+.logo{
+    width: 100px;
+    float: left;
+    height: 40px;
+    text-transform: uppercase;
+
+}
+.nav{
+    margin: auto;
+    height: 40px;
+    width: 600px;
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    /* background-color: chartreuse; */
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+.nav li,a{
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    color: cornsilk;
+
+
+}
+.nav a:hover{
+    /* background-color: cornflowerblue; */
+    border-bottom: 2px solid cornflowerblue ;
+}
+
+
+/* =====================Section 1========================= */
+.check{
+    margin: auto;
+    margin-top: 69px;
+    text-align: center;
+    color: cornsilk;
+}
+.check a{
+    margin: auto;
+    text-align: center;
+    border: 2px solid white;
+    padding: 5px;
+    
+}
+.check a:hover{
+    border: 2px solid yellow;
+    border-radius: 15px;
+    color: yellow;
+}
+/* ===================================== */
+.searchF{
+    padding: 20px;
+    margin-top: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.weather-inf{
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    color: yellow;
+    text-transform: uppercase;
+}
+
+
+#cityName {
+    width: 25%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+}
+#submitBtn {
+    padding: 13px;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* ===================================== */
+#weathercon{
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+}
